@@ -1,0 +1,8 @@
+- Getting started
+ - [Installation](/installation)
+ - [Website creation](/creation)
+- Liquor
+ - [Tags](/tags)
+ - [Variables](/variables)
+- Extensions
+ - [Creating extension](/new-extension)
