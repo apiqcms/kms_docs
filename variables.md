@@ -1,9 +1,11 @@
 ## var_loop
 Variable giving access to current state of cycle/iteration. Can be used only in "for" cycle. var_loop - common name, for accessing actual cycle variable you need to concatenate cycle variable name and "_loop". Example:
 
-&#123;% for p in: index.children do: %&#125;
-
-  &#123;&#123; p_loop.index &#125;&#125; # prints number of current iteration
+```handlebars
+{% for p in: index.children do: %}
+  {{ p_loop.index }} # prints number of current iteration
+{% end for %}
+```
 
 Property of var_loop	| Description
         ---           |    ---

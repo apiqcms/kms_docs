@@ -47,7 +47,6 @@ Once you did this for all assets, you should get a better view of your website. 
 
 To make something dynamic in KMS, you need to use Liquor language and variables giving access to some parts of KMS. For example, there's `index` object that gives you access to root page (that we've created as our first page). This object has properties and one that we need is `index.children`. It allows us to iterate over pages.
 
-{% raw %}
   ```handlebars
   <nav role="navigation">
     <ul>
@@ -59,7 +58,6 @@ To make something dynamic in KMS, you need to use Liquor language and variables 
     </ul>
   </nav>
   ```
-{% endraw %}
 
 Notice that we can also filter children using `find_all_by` method. In this case we want to display only published and visible for navigation pages.
 
@@ -72,12 +70,10 @@ Next possible step to improve our website structure is to use Snippets. Snippets
 ![New Snippet](images/snippet.jpg)
 
 Now when you created a snippet with slug "head", you can use it in Template:
-{% raw %}
 ```handlebars
 <head>
   {% include 'head' %}
 </head>
 ```
-{% endraw %}
 
 That's it. You can structurize your template by extracting more snippets - `header`, `footer`, `menu`, etc.
