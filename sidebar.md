@@ -4,5 +4,11 @@
 - Liquor
  - [Tags](/tags)
  - [Variables](/variables)
+- KMS
+ - [Drops](/kms-drops)
+ - [Filters](/kms-filters)
+- KMS Models
+ - [Drops](/kms-models-drops)
+ - [Endpoints](/kms-models-endpoints)
 - Extensions
  - [Creating extension](/new-extension)
