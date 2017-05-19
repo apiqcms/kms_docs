@@ -4,11 +4,11 @@
 - Liquor
  - [Tags](/tags)
  - [Variables](/variables)
-- KMS
+- APIQ Core
  - [Drops](/kms-drops)
  - [Scopes](/kms-scopes)
  - [Filters](/kms-filters)
-- KMS Models
+- APIQ Models
  - [Drops](/kms-models-drops)
  - [Endpoints](/kms-models-endpoints)
 - Extensions

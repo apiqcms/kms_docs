@@ -1,4 +1,4 @@
-## KMS
+## APIQ
 
 > Simple and powerful Ruby on Rails CMS for developers
 

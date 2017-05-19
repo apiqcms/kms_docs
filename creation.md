@@ -1,6 +1,6 @@
 ## Templates
 
-The main parts in KMS are Templates and Pages. And its usage is very simple.
+The main parts in APIQ are Templates and Pages. And its usage is very simple.
 Each Template contains common html code, i.e. `<html>`, `<head>` and etc. And each Page embeds its content into Template via &#123;% yield %&#125;
 
 Start adding your first template by clicking on "Add template" button on Templates section. Give it some name, paste your HTML code and place `yield` tag where you want page content to be rendered.
@@ -45,7 +45,7 @@ Once you did this for all assets, you should get a better view of your website. 
 
 ## Using Liquor
 
-To make something dynamic in KMS, you need to use Liquor language and variables giving access to some parts of KMS. For example, there's `index` object that gives you access to root page (that we've created as our first page). This object has properties and one that we need is `index.children`. It allows us to iterate over pages.
+To make something dynamic in APIQ, you need to use Liquor language and variables giving access to some parts of APIQ. For example, there's `index` object that gives you access to root page (that we've created as our first page). This object has properties and one that we need is `index.children`. It allows us to iterate over pages.
 
   ```handlebars
   <nav role="navigation">
