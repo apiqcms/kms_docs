@@ -6,6 +6,7 @@
  - [Variables](/variables)
 - KMS
  - [Drops](/kms-drops)
+ - [Scopes](/kms-scopes)
  - [Filters](/kms-filters)
 - KMS Models
  - [Drops](/kms-models-drops)
