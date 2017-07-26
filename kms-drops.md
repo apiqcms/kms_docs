@@ -48,3 +48,34 @@ Variable `item` gives access to current object of "templatable" page. "Templatab
 ```handlebars
 {{ item.title }}
 ```
+
+## search
+Variable `search` returns collection of items representing pages containing searched query. You can setup a form with text input having `name="query"`, and a page that has slug equals to form's `action` attribute.
+
+```html
+<form method="get" action="/search">
+  <input type="text" name="query">
+  <input type="submit" value="Search">
+</form>
+```
+
+And on your '/search' page:
+```handlebars
+<ul>
+{% for res in: search do: %}
+   <li>
+     <a href="{{ res.link }}">
+       {{ res.title }}
+      </a>
+     <p>
+       {{ res.content }}
+     </p>
+  </li>
+{% end for %}
+</ul>
+```
+Property of search item	| Description
+        ---           |    ---
+title | Page title
+link | Page fullpath
+content | Page content
