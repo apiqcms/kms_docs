@@ -11,5 +11,7 @@
 - APIQ Models
  - [Drops](/kms-models-drops)
  - [Endpoints](/kms-models-endpoints)
+- APIQ SEO
+ - [Drops](/kms-seo-drops)
 - Extensions
  - [Creating extension](/new-extension)
