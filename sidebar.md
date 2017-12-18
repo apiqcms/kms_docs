@@ -1,6 +1,7 @@
 - Getting started
  - [Installation](/installation)
- - [Website creation](/creation)
+ - [Basic Website creation](/creation)
+ - [Creating a Blog](/blog)
 - Liquor
  - [Tags](/tags)
  - [Variables](/variables)
