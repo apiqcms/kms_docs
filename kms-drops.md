@@ -43,7 +43,7 @@ form_authenticity_token | Returns authenticity token for current request - for f
 param() | Returns URL param. Example: request.param('page')
 
 ## item
-Variable `item` gives access to current object of "templatable" page. "Templatable" - page with enabled "Use as object template" field and chosen object in "Object" field. Properties of `item` depend on concrete object. Please check out [KMS Models](/kms-models)
+Variable `item` gives access to current object of "templatable" page. "Templatable" - page with enabled "Use as object template" field and chosen object in "Object" field. Properties of `item` depend on concrete object. Please check out [APIQ Models](/kms-models-drops)
 
 ```handlebars
 {{ item.title }}

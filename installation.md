@@ -4,7 +4,7 @@
 
         gem "kms"
         # or for edge version:
-        gem "kms", github: "webgradus/kms"
+        gem "kms", github: "apiqcms/kms"
 
 2. Setup database.yml (only PostgreSQL 9.2+ supported)
 
